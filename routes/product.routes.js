@@ -2,7 +2,7 @@ const { Router } = require('express')
 const router = require('express').Router()
 const Product = require("../models/product-model");
 
-//Route Creat Product
+//Route Create Product
 router.post("/", (req, res) => {
     const product = Product.create(req.body, (error) => {
       if (error)
@@ -69,25 +69,6 @@ router.post("/", (req, res) => {
     }
   })
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
