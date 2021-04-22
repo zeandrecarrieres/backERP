@@ -40,4 +40,4 @@ app.use('/user', userRoutes)
 
 
 //Enable PORT selected
-app.listen(process.env.PORT || 3001);
+app.listen(process.env.PORT);
