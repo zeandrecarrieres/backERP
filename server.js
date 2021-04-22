@@ -27,7 +27,7 @@ const app = express();
 app.use(cookieParser())
 // app.use(cors())
 app.use(cors({
-  credentials:true,
+  // credentials:true,
   origin: 'https://egg-erp-front.herokuapp.com'
   // origin: ['http://localhost:3001', 'http://localhost:3000', 'https://egg-erp-front.herokuapp.com/']
 }));
